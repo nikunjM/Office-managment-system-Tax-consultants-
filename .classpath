@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="WebContent/jqueryandcss"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/app/COMMONJARS/cos-09May2002.jar"/>
+	<classpathentry kind="lib" path="D:/app/COMMONJARS/commons-fileupload-1.2.2-bin.zip"/>
+	<classpathentry kind="lib" path="D:/app/COMMONJARS/activation.jar"/>
+	<classpathentry kind="lib" path="D:/app/IssueTracker/WebContent/WEB-INF/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/app/COMMONJARS/com.springsource.org.apache.poi-3.0.2.FINAL.jar"/>
+	<classpathentry kind="lib" path="D:/app/IssueTracker/WebContent/WEB-INF/lib/jtds-1.2.6.jar"/>
+	<classpathentry kind="lib" path="D:/app/BHANU_Project/WebContent/WEB-INF/lib/mysql-connector-java-5.1.25/mysql-connector-java-5.1.25-bin.jar"/>
+	<classpathentry kind="lib" path="D:/app/IssueTracker/WebContent/WEB-INF/lib/mysql-connector-java-5.1.25-bin.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

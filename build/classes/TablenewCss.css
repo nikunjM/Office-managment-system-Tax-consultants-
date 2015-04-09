@@ -1,0 +1,150 @@
+@CHARSET "ISO-8859-1";
+*{
+text-transform:capitalize;
+}
+button {
+	cursor: pointer;
+	background: #dbe8bf url("/IssueTracker/images/images/add_row.png") 6px 4px no-repeat;
+	padding: 3px 4px 3px 25px;
+	border: 1px solid #a3c261;
+}
+.sortable td.oddselected {
+background: #dce6ee;
+}
+.sortable .oddrow td {
+background: #ecf2f6;
+}
+#UserFrom,#UserServiceFrom,#ServiceSelectiontable,#yrselection,#DropDownSelection{
+	border: 1px solid red;
+	background-color: white;
+	width: 100%;
+		}
+.sortable td {
+padding: 1px 1px 1px;
+border-bottom: 1px solid #c6d5e1;
+border-right: 1px solid #c6d5e1;
+}
+#EmpId,#Status
+{
+display: none;
+}
+.red { background-color: #FFDEAD !important }
+.sus {  background-color: pink !important}
+#customers,#customersOrignal,#customersRevised{
+display: table;
+border-collapse: collapse;
+border-spacing: 2px;
+border-color: gray;
+font: 0.9em Verdana, Geneva, Arial, Helvetica, sans-serif;
+color: #091f30;
+}
+thead {
+display: table-header-group;
+vertical-align: middle;
+border-color: inherit;
+padding: 2px;
+}
+tr {
+display: table-row;
+vertical-align: inherit;
+border-color: inherit;
+}
+#customers td,#customers th,#customersRevised th,#customersRevised td,#customersOrignal th,#customersOrignal td{
+display: table-cell;
+vertical-align: inherit;
+font: 0.9em Verdana, Geneva, Arial, Helvetica, sans-serif;
+white-space:nowrap;
+vertical-align: inherit;
+}
+.sortable th h3 {
+font-size: 10px;
+}
+h3 {
+display: block;
+font-size: 1.17em;
+font-weight: bold;
+}
+.sortable th {
+text-align: left;
+color: #cfdce7;
+}
+.sortable {
+width: 980px;
+border-left: 1px solid #c6d5e1;
+border-top: 1px solid #c6d5e1;
+border-bottom: none;
+}
+.sortable th {
+background: url(/IssueTracker/images/header-bg.gif);
+text-align: left;
+color: #cfdce7;
+border: 1px solid gray;
+border-right: none;
+white-space:nowrap;
+display: table-cell;
+vertical-align: inherit;
+}
+tbody {
+display: table-row-group;
+vertical-align: middle;
+border-color: inherit;
+}
+.sortable .desc, .sortable .asc {
+background: url(/IssueTracker/images/header-selected-bg.gif);
+}
+.sortable h3 {
+background: url(/IssueTracker/images/sort.gif) 1px center no-repeat;
+cursor: pointer;
+padding-left: 10px;
+}
+#yrselection td.Title {
+	text-align: left;
+	padding: 3px 7px 2px 7px;
+	vertical-align: bottom;
+	width: 200px;
+	background-color: orange;
+	}
+	
+#yrselection td.Title1 {
+	text-align: left;
+	padding: 3px 7px 2px 7px;
+	vertical-align: bottom;
+	width: 150px;
+	background-color: orange;
+	}
+#yrselection input[type=text],input[type=password] {
+	text-align: left;
+	padding: 3px 7px 2px 7px;
+	vertical-align: bottom;
+	width: 176px;
+	border: solid 1px #c3c3c3;
+}
+
+#yrselection select {
+	width: 190px;
+	text-align: left;
+	padding: 3px 7px 2px 7px;
+}
+#customers tr:hover,#customers tr:active {
+	color: #4e4e4e;
+	font: 1.0em Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color:#CCE6FF !important;
+	color: #E07628;
+}
+.sortable th:hover,.sortable th:ACTIVE
+	{
+	color: white;	
+	}
+#flip,#flip1 {
+	padding: 5px;
+	text-align: center;
+	background-color:orange;
+	color: #FFFFFF;
+	border: solid 1px #000080;
+	text-transform: uppercase;
+	font-weight: bold; 
+}
+#panel,#panel1 {
+	padding: 0px;
+	display: none;
+}

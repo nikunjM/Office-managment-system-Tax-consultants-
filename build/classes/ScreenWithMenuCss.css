@@ -1,0 +1,298 @@
+@CHARSET "ISO-8859-1";
+
+@font-face { font-family: Sofia; src: url('Sofia-Regular.otf'); }
+@font-face { font-family: Sofia; font-weight: bold;
+src: url('/IssueTracker/jqueryandcss/Sofia-Regular.otf'); }
+a{
+	font-family: Arial, Verdana;
+	font-weight:bold;
+    text-align:center;
+	color:#fff;
+	text-decoration: none;
+}
+.content{
+    margin-top:30px;
+    margin-left:0px;
+    margin-left: -50px;
+}
+ul {
+	margin:0px;
+	-moz-border-radius: 5px;
+    border-radius: 5px;
+}
+ul li {
+    background:#555;
+    height:35px;
+	width:150px;
+	line-height:26px;
+	list-style:none;
+	padding-left:35px;
+	border-top:#fff solid;
+	border-bottom:#fff solid;
+	border-width:1px;
+	cursor:pointer;
+	-moz-border-radius: 5px;
+    border-radius: 5px;
+	margin-top:3px;
+}
+
+ul li a {
+	color:#FFF;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+ul li:hover {
+	background-color:#a1a1a1;
+	position:relative;
+}
+ul ul {
+	display:none;
+	position:absolute;
+	left:170px;
+	top:5px;
+}
+ul li:hover ul {
+	display:block;
+}
+ul ul li {
+	width:150px;
+	float:left;
+	display:inline;
+	border:none;
+    margin-top:3px;
+}
+ ul ul li:hover {
+	text-decoration:none;
+	border:none;
+}
+.home {
+    background: #64a72c url('http://4.bp.blogspot.com/-X9kP7_RF4ao/UezVD2qNZuI/AAAAAAAAA48/lKv3226KDHo/s1600/Create+Responsive+Vertical+Dropdown+Navigation+Menu+home.png') no-repeat;
+	color:#FFF;
+	padding-top:5px;
+	padding-left:55px;
+	text-decoration:none;
+	text-transform:uppercase;
+	background-size:45px 40px;
+	opacity:0.7;
+}
+.about{
+    background: #2c64a7 url('http://1.bp.blogspot.com/-dvnFgJtmzeA/UezVJqa7-7I/AAAAAAAAA5E/xirusMIRJcY/s1600/Create+Responsive+Vertical+Dropdown+Navigation+Menu+about.png') no-repeat;
+	color:#FFF;
+	padding-top:5px;
+	padding-left:55px;
+	text-decoration:none;
+	text-transform:uppercase;
+	background-size:45px 40px;
+	opacity:0.7;
+}
+.services{
+    background: #e65100 url('http://4.bp.blogspot.com/-e1Nc6y7k170/UezVPRTYt9I/AAAAAAAAA5M/zMlHUeNtm-w/s1600/Create+Responsive+Vertical+Dropdown+Navigation+Menu+services.png') no-repeat;
+	color:#FFF;
+	padding-top:5px;
+	padding-left:55px;
+	text-decoration:none;
+	text-transform:uppercase;
+	background-size:45px 40px;
+	opacity:0.7;
+}
+.contact{
+    background: #a72c64 url('http://4.bp.blogspot.com/-k9c7ySpxM_o/UezVVf9l5dI/AAAAAAAAA5U/VF3rmGXS5ZA/s1600/Create+Responsive+Vertical+Dropdown+Navigation+Menu+contact.png') no-repeat;
+	color:#FFF;
+	padding-top:5px;
+	padding-left:55px;
+	text-decoration:none;
+	text-transform:uppercase;
+	background-size:45px 40px;
+	opacity:0.7;
+}
+.about1 {
+    background: #0095e6 url('http://2.bp.blogspot.com/-21k0tiY6Q8s/UezVdu6zauI/AAAAAAAAA5c/CV1Niz0qefE/s320/Create+Responsive+Vertical+Dropdown+Navigation+Menu+about+1.png') no-repeat;
+	height:35px;
+	background-size:28px 28px;
+    background-position:5px 5px;
+    padding-top:5px;
+    padding-left:38px;
+}
+.services1 {
+    background: #e65100 url('http://3.bp.blogspot.com/-GAqHVCBGHTs/UezVi3XcDUI/AAAAAAAAA5k/eFm82CMuEg0/s1600/Create+Responsive+Vertical+Dropdown+Navigation+Menu+services+1.png') no-repeat;
+	height:35px;
+	background-size:24px 24px;
+    background-position:5px 5px;
+    padding-top:5px;
+}
+.services2 {
+    background: #e65100 url('http://3.bp.blogspot.com/-GAqHVCBGHTs/UezVi3XcDUI/AAAAAAAAA5k/eFm82CMuEg0/s1600/Create+Responsive+Vertical+Dropdown+Navigation+Menu+services+1.png') no-repeat;
+	height:55px;
+	background-size:24px 24px;
+    background-position:5px 13px;
+}
+.services3 {
+    background: #e65100 url('http://3.bp.blogspot.com/-GAqHVCBGHTs/UezVi3XcDUI/AAAAAAAAA5k/eFm82CMuEg0/s1600/Create+Responsive+Vertical+Dropdown+Navigation+Menu+services+1.png') no-repeat;
+	height:75px;
+	background-size:24px 24px;
+    background-position:5px 28px;
+}
+.contact1 {
+    background: #ca3b7d url('http://3.bp.blogspot.com/-tDJVGZI4t8M/UezVrO1ISQI/AAAAAAAAA5s/GrsMUjXaSQA/s1600/Create+Responsive+Vertical+Dropdown+Navigation+Menu+contact+1.png') no-repeat;
+	height:35px;
+	background-size:24px 24px;
+    background-position:5px 5px;
+    padding-top:5px;
+}
+#topbar,#mainarea,#left {
+	position: absolute;
+	overflow: auto;
+}
+*{
+text-transform:capitalize;
+}
+#clock
+	{
+	font: 1.364em/1.867em 'Roadgeek2005OldParksRegular', Georgia, sans-serif;
+	color: white;
+	letter-spacing: 2px;
+	position: relative;
+	left:10%;
+	top: 10%;
+	}
+#topbar {
+	background-color:#0ac5f4;
+	width: 110%; 
+	height:95px;
+	top: 0;
+	left:0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+#mainarea {
+	top: 100px;
+	left: 19%;
+	right: 0px;
+	bottom: 10px;
+	background: url(/IssueTracker/images/images/red_stripes.png) repeat-x center 0px;
+}
+
+#left {
+	background: url(/IssueTracker/images/images/red_stripes.png) repeat-x center 0px;
+	top: 100px;
+	left: 0;
+	right: 80%;
+	bottom: 0px;
+	margin-left: 9px;
+	overflow: visible;
+	white-space: wrap;
+	text-overflow: ellipsis;
+}
+#sessioncheck
+	{
+	display:none;
+	}
+body {
+	margin: 0;
+	color: #4e4e4e;
+	font-family: Sofia,sans-serif;
+	font: 0.9em Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	background:#fff url(/IssueTracker/images/bg.gif) repeat-x;}
+}
+#Header{
+	margin: 0;
+	padding: 0;
+	clear: both;
+	height: 25px;
+}
+#clocks {
+
+font: 1.1em Verdana, Geneva, Arial, Helvetica, sans-serif;
+position:absolute;
+bottom:10px;
+left: 56%;
+white-space: nowrap;
+color: #4e4e4e;
+}
+
+
+.Title,.Title1 
+{
+	display: block;
+	font: 0.894em/1.867em 'Roadgeek2005OldParksRegular', Georgia, sans-serif;
+	font-weight: bold;
+	color:white;
+	background-color:orange;
+	width: 230px;
+	text-align: center;
+	padding: 2px;
+	text-decoration: inherit;
+	text-transform: uppercase;
+}
+
+a:hover,a:active {
+	background-color: #FFFFFF;
+	color: #4e4e4e;
+}
+
+.pg-normal {
+	color: #000000;
+	font-size: 15px;
+	cursor: pointer;
+	background: #F8E4CC;
+	padding: 2px 4px 2px 4px;
+}
+
+.pg-selected {
+	color: #fff;
+	font-size: 15px;
+	background: #000000;
+	padding: 2px 4px 2px 4px;
+}
+
+table.yui th a {
+	text-decoration: none;
+	text-align: center;
+	padding-right: 20px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+table.yui .tablesorterPager {
+	padding: 10px 0 10px 0;
+}
+
+table.yui .tablesorterPager span {
+	padding: 0 5px 0 5px;
+}
+
+table.yui .tablesorterPager input.prev {
+	width: auto;
+	margin-right: 10px;
+}
+
+table.yui .tablesorterPager input.next {
+	width: auto;
+	margin-left: 10px;
+}
+
+table.yui .pagedisplay 
+{
+	font-size: 10pt;
+	width: 30px;
+	border: 0px;
+	background-color: #E1ECF9;
+	text-align: center;
+	vertical-align: top;
+}
+select:focus,select:active,button:focus,button:active,input:focus,input:active 
+{
+    border-bottom: 1px solid #000;
+    background-color: yellow;
+}
+select option 
+{
+    background: white;
+    color:black;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+
+
